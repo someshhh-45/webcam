@@ -1,0 +1,7 @@
+ultralytics
+torch
+torchvision
+torchaudio
+supervision==0.2.1
+opencv-python
+numpy
