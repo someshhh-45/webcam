@@ -37,7 +37,7 @@ def main():
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, frame_width)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frame_height)
 
-    # yolov8n.pt for fastest speed
+    
     model = YOLO("yolov8l.pt")
 
     box_annotator = sv.BoxAnnotator()
@@ -90,4 +90,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
