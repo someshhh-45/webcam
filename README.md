@@ -29,10 +29,9 @@ python test.py
 - Visualizes a polygon zone for region-based logic
 
 ## Applications
-- Surveillance
 - People counting
 - Activity monitoring
-- Region-based event detection
+- object Detection
 
 ## Customization
 - Adjust detection confidence threshold in `test.py`
@@ -41,3 +40,4 @@ python test.py
 
 ---
 Created with Ultralytics YOLOv8 and Supervision
+
